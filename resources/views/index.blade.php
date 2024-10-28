@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-50">
-
+ 
     <!-- Header -->
     <header class="bg-pink-200 text-pink-900 py-4">
         <div class="container mx-auto flex justify-between items-center px-4">
@@ -18,6 +18,8 @@
                     <li><a href="#" class="hover:text-pink-700">Tentang Kami</a></li>
                     <li><a href="#" class="hover:text-pink-700">Layanan</a></li>
                     <li><a href="#" class="hover:text-pink-700">Kontak</a></li>
+                    <li><a href="{{ route('login') }}">login</a>
+                    <li><a href="{{ route('about') }}">about</a>
                 </ul>
             </nav>
         </div>
